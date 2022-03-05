@@ -1,0 +1,56 @@
+# Site
+site_name: SupImDos
+site_description: My Personal Website
+site_url: https://supimdos.com
+site_author: SupImDos
+
+# Copyright
+copyright: Copyright &copy; 2022 Hayden Richards
+
+# Repository
+repo_name: SupImDos/website
+repo_url: https://github.com/SupImDos/website
+edit_uri: ""
+
+# Navigation
+nav:
+  - Home: index.md
+  - About: about.md
+  - Projects: projects.md
+
+# Theme
+theme:
+  name: material
+  icon:
+    logo: material/home
+    repo: fontawesome/brands/github
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+# Markdown Extensions
+markdown_extensions:
+  - meta
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+# Plugins
+plugins:
+  - search
