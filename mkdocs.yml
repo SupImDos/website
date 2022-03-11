@@ -16,7 +16,7 @@ edit_uri: ""
 nav:
   - Home: index.md
   - About: about.md
-  - Projects: projects.md
+  - Showcase: showcase.md
 
 # Theme
 theme:
@@ -43,10 +43,25 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
 
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SupImDos
+      name: GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/hayden-peter-richards/
+      name: LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:supimdos@gmail.com
+      name: Email
+    - icon: fontawesome/solid/file-contract
+      link: /assets/documents/resume.pdf
+      name: Resume
+
 # Markdown Extensions
 markdown_extensions:
-  - meta
-  - md_in_html
+  - pymdownx.extra
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
