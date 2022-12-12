@@ -8,7 +8,7 @@ import Skills from './components/Skills.vue'
 </script>
 
 <template>
-  <main class="bg-white dark:bg-gray-900 font-poppins p-6">
+  <main class="bg-white dark:bg-gray-900 font-poppins min-h-screen p-6">
     <NavBar />
     <Hero />
     <About />
