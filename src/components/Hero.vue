@@ -15,7 +15,7 @@ import IconResume from '../icons/IconResume.vue'
       passion for open-source development and a dedication to creating
       innovative solutions for real-world challenges.
     </p>
-    <div class="flex justify-center gap-8 py-3 fill-gray-600 dark:fill-gray-400">
+    <div class="flex justify-center gap-8 py-3 text-gray-600 dark:text-gray-400">
       <a href="https://github.com/SupImDos/" class="w-9 md:w-12">
         <IconGithub class="fill-current hover:scale-110 duration-200 ease-in-out cursor-pointer" />
       </a>
