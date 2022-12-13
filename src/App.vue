@@ -8,12 +8,10 @@ import Skills from './components/Skills.vue'
 </script>
 
 <template>
-  <main class="bg-white dark:bg-gray-900 font-poppins min-w-full min-h-screen p-6">
-    <NavBar />
-    <Hero />
-    <About />
-    <Pets />
-    <Portfolio />
-    <Skills />
-  </main>
+  <NavBar />
+  <Hero />
+  <About />
+  <Pets />
+  <Portfolio />
+  <Skills />
 </template>
