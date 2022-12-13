@@ -16,17 +16,17 @@ import IconResume from '../icons/IconResume.vue'
       innovative solutions for real-world challenges.
     </p>
     <div class="flex justify-center gap-8 py-3 fill-gray-600 dark:fill-gray-400">
-      <a href="https://www.linkedin.com/in/hayden-peter-richards/" class="w-9 md:w-12">
-        <IconLinkedIn class="hover:scale-110 duration-200 ease-in-out cursor-pointer" />
-      </a>
       <a href="https://github.com/SupImDos/" class="w-9 md:w-12">
-        <IconGithub class="hover:scale-110 duration-200 ease-in-out cursor-pointer" />
+        <IconGithub class="fill-current hover:scale-110 duration-200 ease-in-out cursor-pointer" />
+      </a>
+      <a href="https://www.linkedin.com/in/hayden-peter-richards/" class="w-9 md:w-12">
+        <IconLinkedIn class="fill-current hover:scale-110 duration-200 ease-in-out cursor-pointer" />
       </a>
       <a href="mailto:supimdos@gmail.com" class="w-9 md:w-12">
-        <IconEmail class="hover:scale-110 duration-200 ease-in-out cursor-pointer" />
+        <IconEmail class="fill-current hover:scale-110 duration-200 ease-in-out cursor-pointer" />
       </a>
       <a href="#" class="w-9 md:w-12">
-        <IconResume class="hover:scale-110 duration-200 ease-in-out cursor-pointer" />
+        <IconResume class="fill-current hover:scale-110 duration-200 ease-in-out cursor-pointer" />
       </a>
     </div>
     <img class="rounded-full w-72 md:w-96 my-6 bg-gradient-to-b from-emerald-500" :src="Hayden">
