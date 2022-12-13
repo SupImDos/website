@@ -16,11 +16,11 @@ import IconResume from '../icons/IconResume.vue'
       innovative solutions for real-world challenges.
     </p>
     <div class="flex justify-center gap-8 py-3 fill-gray-600 dark:fill-gray-400">
-      <a href="https://github.com/SupImDos/" class="w-9 md:w-12">
-        <IconGithub class="hover:scale-110 duration-200 ease-in-out cursor-pointer" />
-      </a>
       <a href="https://www.linkedin.com/in/hayden-peter-richards/" class="w-9 md:w-12">
         <IconLinkedIn class="hover:scale-110 duration-200 ease-in-out cursor-pointer" />
+      </a>
+      <a href="https://github.com/SupImDos/" class="w-9 md:w-12">
+        <IconGithub class="hover:scale-110 duration-200 ease-in-out cursor-pointer" />
       </a>
       <a href="mailto:supimdos@gmail.com" class="w-9 md:w-12">
         <IconEmail class="hover:scale-110 duration-200 ease-in-out cursor-pointer" />
