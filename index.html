@@ -8,7 +8,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-stone-50 text-stone-700">
+<body class="bg-stone-50">
   <main class="mx-auto max-w-5xl space-y-4 p-10">
     <section id="intro" class="flex flex-col space-y-4 rounded-2xl border border-stone-200 bg-white p-8">
       <header>
@@ -18,15 +18,15 @@
       </header>
 
       <div class="flex flex-wrap gap-x-5 gap-y-2 text-sm text-stone-700">
-        <a href="https://github.com/SupImDos/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 hover:text-stone-900 hover:underline">
+        <a href="https://github.com/SupImDos/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-blue-600 hover:underline hover:text-blue-800">
           <img src="assets/icons/github.svg" class="h-4 w-4" />
           <span>GitHub</span>
         </a>
-        <a href="https://www.linkedin.com/in/hayden-peter-richards/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 hover:text-stone-900 hover:underline">
+        <a href="https://www.linkedin.com/in/hayden-peter-richards/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 text-blue-600 hover:underline hover:text-blue-800">
           <img src="assets/icons/linkedin.svg" class="h-4 w-4" />
           <span>LinkedIn</span>
         </a>
-        <a href="mailto:supimdos@gmail.com" class="inline-flex items-center gap-2 hover:text-stone-900 hover:underline">
+        <a href="mailto:supimdos@gmail.com" class="inline-flex items-center gap-2 text-blue-600 hover:underline hover:text-blue-800">
           <img src="assets/icons/email.svg" class="h-4 w-4" />
           <span>Email</span>
         </a>
@@ -38,48 +38,7 @@
     </section>
 
     <section class="grid grid-cols-1 gap-4 md:grid-cols-3">
-      <article id="stack" class="flex h-full flex-col space-y-4 rounded-2xl border border-stone-200 bg-white p-8">
-        <h2 class="text-sm font-medium uppercase tracking-widest text-stone-500">Stack</h2>
-        <ul class="list-disc space-y-2 pl-4 text-sm leading-6 text-stone-700">
-          <li>Python</li>
-          <li>Django</li>
-          <li>Vue</li>
-          <li>PostgreSQL</li>
-          <li>AI / LLMs</li>
-        </ul>
-        <p class="text-xs leading-5 text-stone-500">
-          Also: HTML / CSS / JavaScript, AWS, Docker, Git, Linux, CI/CD (...and more)
-        </p>
-      </article>
-
-      <article id="skills" class="flex h-full flex-col space-y-4 rounded-2xl border border-stone-200 bg-white p-8">
-        <h2 class="text-sm font-medium uppercase tracking-widest text-stone-500">Skills</h2>
-        <ul class="list-disc space-y-2 pl-4 text-sm leading-6 text-stone-700">
-          <li>Backend development</li>
-          <li>REST and GraphQL API design</li>
-          <li>Analytical problem solving</li>
-          <li>Security-aware engineering</li>
-          <li>Data analysis and visualisation</li>
-        </ul>
-        <p class="text-xs leading-5 text-stone-500">
-          Also: applied statistics, mathematics, data analysis, cyber security (...and more)
-        </p>
-      </article>
-
-      <article id="experience" class="flex h-full flex-col space-y-4 rounded-2xl border border-stone-200 bg-white p-8">
-        <h2 class="text-sm font-medium uppercase tracking-widest text-stone-500">Experience</h2>
-        <ul class="list-disc space-y-2 pl-4 text-sm leading-6 text-stone-700">
-          <li>SaaS products</li>
-          <li>EduTech</li>
-          <li>Environmental consulting</li>
-          <li>Mining services</li>
-          <li>IoT and embedded systems</li>
-        </ul>
-      </article>
-    </section>
-
-    <section class="grid grid-cols-1 gap-4 md:grid-cols-3">
-      <article id="about" class="flex h-full flex-col space-y-4 rounded-2xl border border-stone-200 bg-white p-8 md:col-span-2">
+      <article id="about" class="flex flex-col space-y-4 rounded-2xl border border-stone-200 bg-white p-8 md:col-span-2">
         <h2 class="text-sm font-medium uppercase tracking-widest text-stone-500">About</h2>
         <div class="space-y-4 text-sm leading-6 text-stone-700">
           <p>
@@ -94,7 +53,7 @@
         </div>
       </article>
 
-      <article id="pets" class="flex h-full flex-col space-y-4 rounded-2xl border border-stone-200 bg-white p-8">
+      <article id="pets" class="flex flex-col space-y-4 rounded-2xl border border-stone-200 bg-white p-8">
         <h2 class="text-sm font-medium uppercase tracking-widest text-stone-500">Pets</h2>
         <div class="grid grid-cols-2 gap-2">
           <figure class="overflow-hidden rounded-xl border border-stone-200 bg-white">
@@ -109,6 +68,79 @@
       </article>
     </section>
 
+    <section class="grid grid-cols-1 gap-4 md:grid-cols-3">
+      <article id="stack" class="flex flex-col space-y-4 rounded-2xl border border-stone-200 bg-white p-8">
+        <h2 class="text-sm font-medium uppercase tracking-widest text-stone-500">Stack</h2>
+        <ul class="list-disc space-y-2 pl-4 text-sm leading-6 text-stone-700">
+          <li>Python</li>
+          <li>Django</li>
+          <li>Vue</li>
+          <li>PostgreSQL</li>
+          <li>AI / LLMs</li>
+        </ul>
+        <p class="text-xs leading-5 text-stone-500">
+          Also: HTML / CSS / JavaScript, AWS, Docker, Git, Linux, CI/CD (...and more)
+        </p>
+      </article>
+
+      <article id="skills" class="flex flex-col space-y-4 rounded-2xl border border-stone-200 bg-white p-8">
+        <h2 class="text-sm font-medium uppercase tracking-widest text-stone-500">Skills</h2>
+        <ul class="list-disc space-y-2 pl-4 text-sm leading-6 text-stone-700">
+          <li>Backend development</li>
+          <li>REST and GraphQL API design</li>
+          <li>Analytical problem solving</li>
+          <li>Security-aware engineering</li>
+          <li>Data analysis and visualisation</li>
+        </ul>
+        <p class="text-xs leading-5 text-stone-500">
+          Also: applied statistics, mathematics, data analysis, cyber security (...and more)
+        </p>
+      </article>
+
+      <article id="experience" class="flex flex-col space-y-4 rounded-2xl border border-stone-200 bg-white p-8">
+        <h2 class="text-sm font-medium uppercase tracking-widest text-stone-500">Experience</h2>
+        <ul class="list-disc space-y-2 pl-4 text-sm leading-6 text-stone-700">
+          <li>SaaS products</li>
+          <li>EduTech</li>
+          <li>Environmental consulting</li>
+          <li>Mining services</li>
+          <li>IoT and embedded systems</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="portfolio" class="flex flex-col space-y-4 rounded-2xl border border-stone-200 bg-white p-8">
+      <h2 class="text-sm font-medium uppercase tracking-widest text-stone-500">Portfolio</h2>
+      <p class="text-sm leading-6 text-stone-700">
+        While most of my best work is private, here are some public projects I've worked on:
+      </p>
+      <ul class="list-disc space-y-2 pl-4 text-sm leading-6 text-stone-700">
+        <li>
+          <a href="https://github.com/supimdos/pydantic-argparse" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline hover:text-blue-600">
+            <code>pydantic-argparse</code>
+          </a>
+          <p class="text-xs leading-5 text-stone-500">
+            Open-source Python package for building declarative, type-safe command-line interfaces, with more than 2 million downloads on PyPI
+          </p>
+        </li>
+        <li>
+          <a href="https://github.com/supimdos/embassy-rp-skeleton" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline hover:text-blue-600">
+            <code>embassy-rp-skeleton</code>
+          </a>
+          <p class="text-xs leading-5 text-stone-500">
+            Rust template for RP2040 embedded firmware using Embassy, with a batteries-included async development setup and debug tooling
+          </p>
+        </li>
+        <li>
+          <a href="https://github.com/supimdos/homebridge-camera-swann" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:underline hover:text-blue-600">
+            <code>homebridge-camera-swann</code>
+          </a>
+          <p class="text-xs leading-5 text-stone-500">
+            Homebridge plugin for integrating Swann cameras over RTSP, designed to avoid unnecessary transcoding and switch streams intelligently
+          </p>
+        </li>
+      </ul>
+    </section>
   </main>
 </body>
 
